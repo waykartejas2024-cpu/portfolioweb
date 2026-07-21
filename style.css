@@ -323,6 +323,14 @@
         font-size: 0.9rem;
     }
     
+    .tw {
+        display: none;
+    }
+    
+    .mobnav {
+        display: none;
+    }
+    
     @media (max-width: 360px) {
         /* Mobile styles */
         .topbar {
@@ -343,4 +351,16 @@
         }
         .name {}
         .btn {}
+        .mobnav {
+            display: flex;
+            float: right;
+            margin-top: -20px;
+            text-decoration: none;
+        }
+        .tw {
+            display: flex;
+            font-weight: 800;
+            color: #38bdf8;
+            letter-spacing: 0.1em;
+        }
     }
