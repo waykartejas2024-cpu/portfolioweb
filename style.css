@@ -396,6 +396,12 @@ body {
     color:darkkhaki;
 }
 
+#skill-titale{
+ color:darkkhaki;
+}
+
+
+
 .tw {
     display: none;
 }
@@ -403,6 +409,7 @@ body {
 .mobnav {
     display: none;
 }
+
 
 @media (max-width: 768px) {
     /* Mobile styles */
@@ -418,10 +425,11 @@ body {
         padding: 5px;
         overflow-x: hidden;
     }
-    .nam {
-        font-size: 320px;
-        font-weight: 900;
-    }
+ .nam {
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
     .name {
         font-weight: 900;
         font-size: 50px;
